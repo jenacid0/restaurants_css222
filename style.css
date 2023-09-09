@@ -73,3 +73,6 @@ footer {
     background-color: rgb(216, 196, 107);
     color: white;
 }
+image {
+    align-items: center;
+}
