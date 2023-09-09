@@ -10,8 +10,8 @@ body {
 header {
     padding: 60px;
     text-align: center;
-    background: rgb(64, 131, 207);
-    color: rgb(5, 17, 27);
+    background: rgb(14, 133, 189);
+    color: rgb(252, 253, 253);
 }
 
 header h1 {
@@ -21,7 +21,7 @@ header h1 {
 
 nav {
     overflow: hidden;
-    background-color: rgb(216, 196, 107);
+    background-color: rgb(221, 143, 198);
 }
 
 nav a {
@@ -74,5 +74,5 @@ footer {
     color: white;
 }
 img {
-    align-items: center;
+    align-content: center;
 }
