@@ -6,9 +6,9 @@ body {
     margin: 0;
 }
 header {
-    padding: 80px;
+    padding: 60px;
     text-align: center;
-    background: rgba(223, 114, 51, 0.979);
+    background: rgb(64, 131, 207);
     color: rgb(5, 17, 27);
 }
 header h1 {
@@ -16,7 +16,7 @@ header h1 {
 }
 nav {
     overflow: hidden;
-    background-color: rgb(202, 17, 17);
+    background-color: rgb(216, 196, 107);
 }
 nav a {
     float: left;
@@ -42,7 +42,7 @@ nav a.hover{
 .side{
     -ms-flex: 70%; /*IE10*/
     flex: 70%;
-    background-color: rgba(204, 129, 85, 0.753);
+    background-color: rgba(240, 238, 228, 0.945);
     padding: 20px;
     
 }
