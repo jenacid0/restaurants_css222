@@ -2,13 +2,13 @@
     box-sizing: border-box;
 } 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
 }
 header {
     padding: 80px;
     text-align: center;
-    background: rgba(50, 121, 212, 0.473);
+    background: rgba(223, 114, 51, 0.979);
     color: rgb(5, 17, 27);
 }
 header h1 {
@@ -16,12 +16,12 @@ header h1 {
 }
 nav {
     overflow: hidden;
-    background-color: rgb(90, 79, 243);
+    background-color: rgb(218, 175, 58);
 }
 nav a {
     float: left;
     display: block;
-    color: azure;
+    color: rgba(236, 179, 146, 0.692);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
