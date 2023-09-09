@@ -1,24 +1,29 @@
-*{
+* {
     box-sizing: border-box;
-} 
+}
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
 }
+
 header {
     padding: 60px;
     text-align: center;
     background: rgb(64, 131, 207);
     color: rgb(5, 17, 27);
 }
+
 header h1 {
     font-size: 40px;
     text-align: center;
 }
+
 nav {
     overflow: hidden;
     background-color: rgb(216, 196, 107);
 }
+
 nav a {
     float: left;
     display: block;
@@ -27,29 +32,44 @@ nav a {
     padding: 14px 20px;
     text-decoration: none;
 }
-nav a.right{
+
+nav a.right {
     float: right;
 }
-nav a.hover{
+
+nav a.hover {
     background-color: #ddd;
     color: black;
 }
+
 .row {
-    display: -ms-flexbox; /*IE10*/
+    display: -ms-flexbox;
+    /*IE10*/
     display: flex;
-    -ms-flex-wrap: wrap; /*IE10*/
+    -ms-flex-wrap: wrap;
+    /*IE10*/
     flex-wrap: wrap;
 }
-.side{
-    -ms-flex: 70%; /*IE10*/
+
+.side {
+    -ms-flex: 70%;
+    /*IE10*/
     flex: 70%;
     background-color: rgba(240, 238, 228, 0.945);
     padding: 20px;
-    
+
 }
+
 .main {
     -ms-flex: 70%;
     flex: 70%;
     background-color: rgba(12, 168, 168, 0.945);
     padding: 20px;
+}
+
+footer {
+    text-align: left;
+    padding: 3px;
+    background-color: rgb(64, 131, 207);
+    color: white;
 }
