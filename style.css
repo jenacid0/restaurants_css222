@@ -8,15 +8,15 @@ body {
 header {
     padding: 80px;
     text-align: center;
-    background: rgba(148, 101, 224, 0.473);
-    color: rgb(100, 164, 219);
+    background: rgba(50, 121, 212, 0.473);
+    color: rgb(5, 17, 27);
 }
 header h1 {
     font-size: 40px;
 }
 nav {
     overflow: hidden;
-    background-color: rgb(156, 216, 216);
+    background-color: rgb(90, 79, 243);
 }
 nav a {
     float: left;
