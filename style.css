@@ -27,7 +27,7 @@ nav {
 nav a {
     float: left;
     display: block;
-    color: rgba(251, 251, 252, 0.692);
+    color: rgb(248, 248, 248);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -42,18 +42,14 @@ nav a.hover {
     color: black;
 }
 
-.row {
-    display: -ms-flexbox;
-    /*IE10*/
-    display: flex;
-    -ms-flex-wrap: wrap;
-    /*IE10*/
-    flex-wrap: wrap;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .side {
     -ms-flex: 70%;
-    /*IE10*/
     flex: 70%;
     background-color: rgba(240, 238, 228, 0.945);
     padding: 20px;
@@ -73,10 +69,9 @@ footer {
     background-color: rgb(216, 196, 107);
     color: white;
 }
-section {
-    margin: 10px;
-    width: 50%;
-}
-img {
-    float: right;
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
