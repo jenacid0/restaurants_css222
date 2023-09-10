@@ -73,3 +73,10 @@ footer {
     background-color: rgb(216, 196, 107);
     color: white;
 }
+section {
+    margin: 10px;
+    width: 50%;
+}
+img {
+    float: right;
+}
